@@ -1,7 +1,9 @@
 // @dart=2.9
 //import 'package:camera/camera.dart';
 import 'package:camera/camera.dart';
+import 'package:final_project/NewScreen/LandingScreen.dart';
 import 'package:final_project/Screen/HomeScreen.dart';
+import 'package:final_project/Screen/LoginScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'Screen/CameraScreen.dart';
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
           fontFamily: "OpenSans",
           primaryColor: Color(0xFF075E54),
           accentColor: Color(0xFF128C7E)),
-      home: Homescreen(),
+      home: LandingScreen(),
     );
   }
 }
