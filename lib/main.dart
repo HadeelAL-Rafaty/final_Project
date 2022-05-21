@@ -25,7 +25,8 @@ class MyApp extends StatelessWidget {
           fontFamily: "OpenSans",
           primaryColor: Color(0xFF075E54),
           accentColor: Color(0xFF128C7E)),
-      home: LandingScreen(),
+     // home: LandingScreen(),
+      home: Homescreen(),
     );
   }
 }
